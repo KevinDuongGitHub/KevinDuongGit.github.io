@@ -1,0 +1,46 @@
+main {
+    background-color: rgba(37, 78, 153, 0.842);
+    width: 80%;
+    margin: auto;
+}
+
+.projects {
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.aboutMe {
+    padding: 20px;
+    background-color: rgba(25, 161, 161, 0.747);
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: 50% 20%;
+    grid-template-rows: 20%;
+    gap: 20px 20px;
+    margin: auto;
+    max-width: auto;
+    min-width: auto;
+    justify-content: center;
+}
+
+.container2 {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    background-color: rgba(0, 0, 0, 0.459);
+    justify-content: center;
+    text-align: center;
+}
+
+.flexItem {
+    margin-left: 5px;
+    padding: 11px;
+}
+
+.flexItem:first-child {
+    margin: 0;
+}
