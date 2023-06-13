@@ -17,8 +17,8 @@ main {
 
 .container1{
     display: grid;
-    grid-template-columns: 50% 20%;
-    grid-template-rows: 20%;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 100%;
     gap: 20px 20px;
     margin: auto;
     max-width: auto;
@@ -27,7 +27,7 @@ main {
 }
 
 .container2 {
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 1rem auto;
